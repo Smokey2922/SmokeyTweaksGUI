@@ -1246,7 +1246,7 @@ function Show-Menu {
     else { $StatusColor = 'Red' }
 
     Write-Host "============================================================================================================="
-    Write-Host (" [ LIVE STATUS: {0} Running Processes (You have to refresh the powershell by type Enter with no type any num] " -f $pCount) -ForegroundColor $StatusColor
+    Write-Host (" [ LIVE STATUS: {0} Running Processes" -f $pCount) -ForegroundColor $StatusColor
     Write-Host "=============================================================================================================" -ForegroundColor Cyan
 }
 
